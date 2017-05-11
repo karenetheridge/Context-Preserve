@@ -1,4 +1,5 @@
 package Context::Preserve;
+# ABSTRACT: Run code after a subroutine call, preserving the context the subroutine would have seen if it were the last statement in the caller
 use strict;
 use warnings;
 use Carp;
@@ -52,10 +53,6 @@ sub preserve_context(&@) {
 
 1;
 __END__
-
-=head1 NAME
-
-Context::Preserve - run code after a subroutine call, preserving the context the subroutine would have seen if it were the last statement in the caller
 
 =head1 SYNOPSIS
 
@@ -159,11 +156,4 @@ prototype.  The alternative is to say:
 You can pick the one you like, but I think the first version is much
 prettier.
 
-=head1 AUTHOR AND COPYRIGHT
-
-Jonathan Rockway C<< <jrockway@cpan.org> >>
-
-Copyright (c) 2008 Infinity Interactive.  You may redistribute this
-module under the same terms as Perl itself.
-
-
+=cut

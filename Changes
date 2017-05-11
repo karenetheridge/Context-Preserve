@@ -1,2 +1,7 @@
+Revision history for Context-Preserve
+
+{{$NEXT}}
+        - convert packaging to Dist::Zilla, resolving RT#120824
+
 0.01      2007-01-15
         - initial release

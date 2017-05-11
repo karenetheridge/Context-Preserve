@@ -1,8 +1,6 @@
-cover_db
-META.yml
-Makefile
-blib
-inc
-pm_to_blib
-MANIFEST
-Makefile.old
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Context-Preserve-*/
+/Context-Preserve-*.tar.gz
