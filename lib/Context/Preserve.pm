@@ -6,7 +6,7 @@ use Carp;
 use base 'Exporter';
 our @EXPORT = qw(preserve_context);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub preserve_context(&@) {
     my $orig = shift;
